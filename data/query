@@ -1,0 +1,1 @@
+SELECT Name, Description__c, Job_Posting_Site_URL__c, Status__c, Technical_Site__c FROM Job_Posting_Site__c

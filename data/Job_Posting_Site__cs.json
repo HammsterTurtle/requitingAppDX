@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Job_Posting_Site__c",
+                "referenceId": "Job_Posting_Site__cRef1"
+            },
+            "Name": "Lots-O-Jobs",
+            "Description__c": "Best site to find a job",
+            "Job_Posting_Site_URL__c": "www.Lotsojobs.com",
+            "Status__c": "Active",
+            "Technical_Site__c": false
+        },
+        {
+            "attributes": {
+                "type": "Job_Posting_Site__c",
+                "referenceId": "Job_Posting_Site__cRef2"
+            },
+            "Name": "Linked-In",
+            "Description__c": "IT secter jobs",
+            "Job_Posting_Site_URL__c": "https://www.linkedin.com/",
+            "Status__c": "Active",
+            "Technical_Site__c": true
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Job_Posting_Site__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Job_Posting_Site__cs.json"
+        ]
+    }
+]
