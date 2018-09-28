@@ -1,0 +1,26 @@
+public class HelperForAssignPositionToQueueTrigger
+{
+    public void assignPositionToQueue(List<Position__c> positions)
+    {
+        List<Position__c> updatePositions=new List<Position__c>();
+        for(Position__c newPosition : positions)
+            {
+               User positionOwner = [select ProfileId from User where id =: newPosition.OwnerId];
+               Id ownerProfileId = positionOwner.ProfileId;
+               String typeOwnerProfile = [select Name from Profile Where id =: ownerProfileId].Name;
+               if(!typeOwnerProfile.contains('Recruiter'))
+               {
+                   Group unclaimedPositionsQueue = [Select Id from Group WHERE Type LIKE 'Queue' AND Name LIKE 'Unclaimed Positions Queue' LIMIT 1];            
+                   Position__c testPosition = new Position__c(Id=newPosition.Id);
+                   testPosition.OwnerId = unclaimedPositionsQueue.Id;
+                   updatePositions.add(testPosition);
+               }
+            }
+        try
+        {
+            update updatePositions;
+        }catch ( Exception e) {
+            ApexPages.addMessage(new ApexPages.Message( ApexPages.Severity.FATAL, 'Sorry, something goes wrong. Error details: ' + e.getMessage() ) );
+        }
+    }
+}

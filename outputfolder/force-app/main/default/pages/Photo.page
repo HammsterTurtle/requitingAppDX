@@ -1,0 +1,65 @@
+<apex:page standardController="Candidate__c" showheader="false" sidebar="false" extensions="ImageController" lightningStylesheets="true">
+    <apex:form >   
+        <apex:pageBlock >
+            <apex:messages />        
+            
+                        <style>
+                            .fileType {
+                            display: block;
+                            position: relative;
+                            width: 150px;
+                            margin: auto;
+                            cursor: pointer;
+                            border: 0;
+                            height: 40px;
+                            border-radius: 3px;
+                            outline: 0;
+                        }
+                        .fileType:hover:after {
+                            background: rgb(255, 255, 255);
+                        }
+                        .fileType:after {
+                            font-family: 'Salesforce Sans',Arial,sans-serif;
+                            text-shadow: 0 2px 0 rgba(0,0,0,.2);
+                            padding: 10px 20px;
+                            background-color: rgb(255, 255, 255);
+                            color: rgba(27, 82, 151, 1.0);
+                            font-size: .75rem;
+                            text-align: center;
+                            position: absolute;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                            content: 'Select Picture';
+                            border: 1px solid rgb(221, 219, 218);
+                        vertical-align: middle;
+                            
+                        }
+                    </style>
+                <script>
+                function checkInputField(){
+                    var photo = document.getElementById('j_id0:j_id1:j_id2:j_id7').value;
+                    console.log(photo);
+                    if(photo){
+                        sayHello('true');
+                    }
+                    else{
+                        sayHello('false');
+                    }
+                }
+                </script>
+            <apex:outputLabel >Set candidate picture</apex:outputLabel>
+            <apex:inputFile value="{!photo}" onchange="checkInputField();" contentType="{!formatName}" styleClass="fileType" accept="image/*" style="position: relative;left: 15%;margin-left: -50px; margin-top:10px;"> </apex:inputFile>
+            <apex:actionRegion renderRegionOnly="false"  >
+                <apex:actionFunction name="sayHello" action="{!ShowBlockMethod}" rerender="pgblckID">
+                <apex:param value="" name="inpval" assignTo="{!value}" />
+                </apex:actionFunction>
+            </apex:actionRegion>
+                      
+            <apex:pageBlockSection id="pgblckID" >
+                <apex:commandButton id="uploadButton" action="{!UploadPhoto}" value="Upload " disabled="{!afterMistake}" rendered="{!myApexBooleanVariable}" style="width: 100px;position: relative;left: 84%;margin-left: -50px; margin-top:10px;"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,141 @@
+<apex:page standardController="Candidate__c" renderAs="pdf" applyBodyTag="false" >
+        <head>
+            <style type="text/css" media="print">
+                @page :first {
+                    @top-center {}}
+
+                @page {    
+                    @bottom-left {
+                        content: element(footer);}}
+
+                *{
+                    margin: 0px;
+                    padding: 0px;}
+
+                div.content {
+                    padding-top: 30px;}
+
+                div.footer {
+                    display: block;
+                    padding: 5px;
+                    position: running(footer);}
+
+                div.subfooter {
+                    display: inline-block;}
+
+                div.right {
+                    float: right;}
+
+                .pagenumber:before {
+                    content: counter(page);}
+
+                .pagecount:before {
+                    content: counter(pages);}
+
+                .stationName {
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 18pt;}
+                
+                .stationName2 {
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 14pt;
+                    margin-bottom: 10px;}
+
+                table {
+                    width: 100%;}
+
+                .centered {
+                    text-align: center;}
+
+                .right {
+                    text-align: right;}
+
+                .tableHeader {
+                    border-width: 1px 1px 1px 1px;
+                    border-color: #000;
+                    border-style: solid;}
+
+                .sectionHeader {
+                    width: 100%;
+                    background-color: #B0E0E6;
+                    font-size: 14pt;
+                    padding: 5px;
+                    margin: 20px 0px;
+                    font-weight: bold;}
+            </style>
+        </head> 
+<div class="content">       
+    <hr/>
+    <table>
+        <tr>
+            <td ><apex:outputText value=""/><apex:image url="/sfc/servlet.shepherd/version/download/{!Candidate__c.PhotoURL__c}" style="margin-left:70px;" width="150px" height="150px" /> </td>
+            <td >
+                    <apex:outputText value="First Name" style="font-size: 14pt; font-weight: bold;"/><br/>
+                    <apex:outputField value="{!Candidate__c.First_Name__c}"/>
+                    <br/> <br/> <br/>  <br/>
+                    <apex:outputText value="Last Name" style="font-size: 14pt; font-weight: bold;"/> <br/>
+                    <apex:outputField value="{!Candidate__c.Last_Name__c}"/>
+            </td>
+        </tr>  
+    </table>
+    <hr/>
+    <br/>
+    <h1 class="stationName">Candidate`s resume</h1><br/>
+    <h2 class="stationName2"><apex:outputField value="{!Candidate__c.Name}"/></h2>
+    <h2> <div class="sectionHeader">Professional skills</div></h2>
+    <table>
+        <tr>
+            <td ><apex:outputText value="Currently Employed"/></td>
+            <td ><apex:outputField value="{!Candidate__c.Currently_Employed__c}" /></td>
+        </tr>  
+                            
+        <tr>
+            <td ><apex:outputText value="Years of Experience "/></td>
+            <td ><apex:outputField value="{!Candidate__c.Years_of_Experience__c} " style="text-align: right;"/></td>
+        </tr>
+                
+        <tr>
+            <td ><apex:outputText value="Education"/></td>
+            <td ><apex:outputField value="{!Candidate__c.Education__c} " style="text-align: right;"/></td>
+        </tr>  
+                            
+                                            
+        <tr>
+            <td ><apex:outputText value="Current Employer"/></td>
+            <td ><apex:outputField value="{!Candidate__c.Current_Employer__c} " style="text-align: right;"/></td>
+        </tr>  
+    </table>
+    
+                
+                
+    <apex:pageBlock >
+    <div class="sectionHeader">Locations</div>
+        <apex:pageBlockTable value="{!Candidate__c.Country__c}" var="can"  border="none" columnsWidth="15%,20%,50%">
+        <apex:column value="{!Candidate__c.Country__c}" headerClass="centered" styleClass="centered"/>
+        <apex:column value="{!Candidate__c.City__c}" headerClass="centered" styleClass="centered"/>
+        <apex:column value="{!Candidate__c.Street_Address_1__c}" title="Street Address" headerClass="centered" styleClass="centered"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+                
+    <apex:pageBlock >
+    <div class="sectionHeader">Feedback</div>
+        <apex:pageBlockTable value="{!Candidate__c.Email__c}" var="can"  border="none" columnsWidth="15%,20%,20%">
+        <apex:column value="{!Candidate__c.Email__c}" headerClass="centered" styleClass="centered"/>
+        <apex:column value="{!Candidate__c.Mobile__c}" headerClass="centered" styleClass="centered"/>
+        <apex:column value="{!Candidate__c.Zip_Postal_Code__c}"  headerClass="centered" styleClass="centered"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+                
+    <apex:pageBlock >
+        <div class="footer">
+        <div class="centered">Generated by {!$User.FirstName} {!$User.LastName}</div>
+        <div>
+        <div class="subfooter"><apex:outputText value=" {!NOW()}"/></div>
+        <div class="subfooter right">Page <span class="pagenumber"/> of <span class="pagecount"/></div>
+        </div>
+        </div>
+    </apex:pageBlock>            
+</div>
+</apex:page>

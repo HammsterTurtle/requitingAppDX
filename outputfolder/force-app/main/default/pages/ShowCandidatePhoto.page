@@ -1,0 +1,33 @@
+<apex:page id="showImagePage" extensions="ImageController" standardController="Candidate__c" standardStylesheets="false" lightningStylesheets="true" showHeader="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <style type="text/css">
+                .wrapper {
+                    margin: 0 auto;
+                    text-align: center;
+                   
+                }
+                .slds-media__figure { margin-right: 0; }
+                .contact-img { max-height: 250px; max-width: 300px;  }
+            </style>
+        </head>
+        <body>
+            <div class="slds">
+                <div class="wrapper">
+                    <div class="slds-media__figure">
+                    <apex:outputpanel id="image" layout="block"  >
+                        <span class="slds-avatar">
+                            <center>
+                        <apex:image url="/sfc/servlet.shepherd/version/download/{!Candidate__c.PhotoURL__c}" styleClass="contact-img" rendered="{!Candidate__c.PhotoURL__c!=null}" />
+                                </center>
+                        </span>
+                        <apex:form >
+                        <apex:commandButton id="delete" action="{!DeletePhoto}" value="Delete" rendered="{!Candidate__c.PhotoURL__c!=null}" />
+                        </apex:form>
+                    </apex:outputpanel>
+                    </div>
+                </div>
+            </div>
+        </body>
+	</html>
+</apex:page>
