@@ -35,13 +35,12 @@
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1537429439902,
-            "changeTime": 1537429439902,
-            "contentHash": "5688fff54a69dc53e707b4bff090ea6dec9faf59",
+            "modifiedTime": 1538147334897,
+            "changeTime": 1538147334897,
+            "contentHash": "124d7d92772177d5f1a54bca4a05fd0faea67e5d",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -77,15 +76,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\classes",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1538145721750,
-            "changeTime": 1538145721750,
-            "isWorkspace": false,
-            "contentHash": "0b958eeb3cb71d4d12a23b871fd6985710871b34"
+            "modifiedTime": 1538147446250,
+            "changeTime": 1538147446250,
+            "contentHash": "d1371e456de42f8d400de160d30154d43c28f8d5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -271,15 +270,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\cleanDataServices",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\cleanDataServices",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145721787,
             "changeTime": 1538145721787,
-            "isWorkspace": false,
-            "contentHash": "c43ff0ec94cd9036645e668dc05274bf26fdb8f5"
+            "contentHash": "c43ff0ec94cd9036645e668dc05274bf26fdb8f5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -315,15 +314,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\email\\Position_Request_Responses",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\email\\Position_Request_Responses",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145722536,
             "changeTime": 1538145722536,
-            "isWorkspace": false,
-            "contentHash": "4250bfdcab00ad232f27cca76c0a2f396ae71258"
+            "contentHash": "4250bfdcab00ad232f27cca76c0a2f396ae71258",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -404,30 +403,28 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\flexipages",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\flexipages",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145721806,
             "changeTime": 1538145721806,
-            "isWorkspace": false,
-            "contentHash": "766098d1fa0c094a5d0f5aa4948b4d70843afc9f"
+            "contentHash": "766098d1fa0c094a5d0f5aa4948b4d70843afc9f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\flexipages\\Candidate_Record_Page.flexipage-meta.xml",
         {
+            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\flexipages\\Candidate_Record_Page.flexipage-meta.xml",
             "isDirectory": false,
-            "size": 3550,
-            "modifiedTime": 1537429439850,
-            "changeTime": 1537429439850,
-            "contentHash": "be9f5ba73131d32d8436a9bc6a6d4e5cfba74ec9",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 4451,
+            "modifiedTime": 1538148665483,
+            "changeTime": 1538148665483,
+            "contentHash": "494fe34c535c67a33e99d2821e44626f608733d8"
         }
     ],
     [
@@ -508,15 +505,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\layouts",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145721878,
             "changeTime": 1538145721878,
-            "isWorkspace": false,
-            "contentHash": "fc972f7553cbd9147bb3351cc3163e9064f1a119"
+            "contentHash": "fc972f7553cbd9147bb3351cc3163e9064f1a119",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -732,15 +729,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Candidate__c\\fields",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Candidate__c\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145721993,
             "changeTime": 1538145721993,
-            "isWorkspace": false,
-            "contentHash": "dfbf4338a15cee54f256e0d5f63d1b34e21d8d3e"
+            "contentHash": "dfbf4338a15cee54f256e0d5f63d1b34e21d8d3e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1601,29 +1598,29 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Position__c",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Position__c",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145722143,
             "changeTime": 1538145722143,
-            "isWorkspace": false,
-            "contentHash": "4abdae1169c90af47669bbcb619ce9f4241c94a5"
+            "contentHash": "4abdae1169c90af47669bbcb619ce9f4241c94a5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Position__c\\fields",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Position__c\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145722149,
             "changeTime": 1538145722149,
-            "isWorkspace": false,
-            "contentHash": "9f275a5a5dd236573ce422aabe0a92e6fd2d188d"
+            "contentHash": "9f275a5a5dd236573ce422aabe0a92e6fd2d188d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1929,15 +1926,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Position__c\\recordTypes",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Position__c\\recordTypes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145722169,
             "changeTime": 1538145722169,
-            "isWorkspace": false,
-            "contentHash": "c2257f12412d701d6e04179d448c93484600fc18"
+            "contentHash": "c2257f12412d701d6e04179d448c93484600fc18",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -2423,15 +2420,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\permissionsets",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\permissionsets",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145722247,
             "changeTime": 1538145722247,
-            "isWorkspace": false,
-            "contentHash": "ab16463180f945bfc75f85130413c9f651c4b4b5"
+            "contentHash": "ab16463180f945bfc75f85130413c9f651c4b4b5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -2467,15 +2464,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\profiles",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145722403,
             "changeTime": 1538145722403,
-            "isWorkspace": false,
-            "contentHash": "a96e8a19db55b68d0bec6b074817eee47d750679"
+            "contentHash": "a96e8a19db55b68d0bec6b074817eee47d750679",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -2574,13 +2571,12 @@
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\quickActions",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1537429439897,
-            "changeTime": 1537429439897,
-            "contentHash": "7ca5721a24d96799b7f5272134bf15793f7afc9d",
+            "modifiedTime": 1538147295545,
+            "changeTime": 1538147295545,
+            "contentHash": "88da64afe68a95017af9871cfb785755c31b0103",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -2781,15 +2777,15 @@
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\tabs",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\tabs",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1538145722427,
             "changeTime": 1538145722427,
-            "isWorkspace": false,
-            "contentHash": "e277ec13dc5f10ea9ff0da33fde1ebed87901490"
+            "contentHash": "e277ec13dc5f10ea9ff0da33fde1ebed87901490",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -3035,28 +3031,210 @@
     [
         "E:\\requitingAppDX",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1538146043499,
-            "changeTime": 1538146043499,
-            "isWorkspace": true,
-            "contentHash": "2719bad7936dff538f70f0c603db7c143cf6a82b"
+            "modifiedTime": 1538147828958,
+            "changeTime": 1538147828958,
+            "contentHash": "4bf98df013497df0612919f00fe625895c75d6ed",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true
         }
     ],
     [
         "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Candidate__c\\fields\\PhotoURL__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\objects\\Candidate__c\\fields\\PhotoURL__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 361,
             "modifiedTime": 1538145721994,
             "changeTime": 1538145721994,
-            "contentHash": "67b70787cf319bc12dc59a62cf0faa857c756916"
+            "contentHash": "67b70787cf319bc12dc59a62cf0faa857c756916",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\pages",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1538145722230,
+            "changeTime": 1538147334897,
+            "contentHash": "b6bf20933675e1f576f195c3e47c02ffa9def1ae",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\pages\\candidatePDF.page",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\pages\\candidatePDF.page",
+            "isDirectory": false,
+            "size": 5487,
+            "modifiedTime": 1538145722231,
+            "changeTime": 1538145722231,
+            "contentHash": "bf3c49046cb9718d3d058cfee30894a00d704516",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\pages\\candidatePDF.page-meta.xml",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\pages\\candidatePDF.page-meta.xml",
+            "isDirectory": false,
+            "size": 288,
+            "modifiedTime": 1538145722229,
+            "changeTime": 1538145722229,
+            "contentHash": "e2befe032401c24d1fbec9b95d2b8f1c8a90f673",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\pages\\Photo.page",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\pages\\Photo.page",
+            "isDirectory": false,
+            "size": 3228,
+            "modifiedTime": 1538145722223,
+            "changeTime": 1538145722223,
+            "contentHash": "71cee5270d09d7f23798e40fa1e0246f73428a60",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\pages\\Photo.page-meta.xml",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\pages\\Photo.page-meta.xml",
+            "isDirectory": false,
+            "size": 280,
+            "modifiedTime": 1538145722221,
+            "changeTime": 1538145722221,
+            "contentHash": "64b458fde96fcbb6616acf58dccfcfb8a4ac2d08",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\pages\\ShowCandidatePhoto.page",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\pages\\ShowCandidatePhoto.page",
+            "isDirectory": false,
+            "size": 1613,
+            "modifiedTime": 1538145722226,
+            "changeTime": 1538145722226,
+            "contentHash": "cb1834c325f579fcdce9dc03fbecef625044327d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\pages\\ShowCandidatePhoto.page-meta.xml",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\pages\\ShowCandidatePhoto.page-meta.xml",
+            "isDirectory": false,
+            "size": 292,
+            "modifiedTime": 1538145722225,
+            "changeTime": 1538145722225,
+            "contentHash": "f4d3b1613ed9d5af4d7ea7aa6dbc31250edca6d2",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\classes\\ImageController.cls",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\classes\\ImageController.cls",
+            "isDirectory": false,
+            "size": 2553,
+            "modifiedTime": 1538145721740,
+            "changeTime": 1538147446243,
+            "contentHash": "5b90ae82669969e29f4ffdbed968c8a7f8063431",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\classes\\ImageController.cls-meta.xml",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\classes\\ImageController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1538145721738,
+            "changeTime": 1538147446245,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\classes\\imageControllerTest.cls",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\classes\\imageControllerTest.cls",
+            "isDirectory": false,
+            "size": 4108,
+            "modifiedTime": 1538145721754,
+            "changeTime": 1538147446246,
+            "contentHash": "2ed17f80d55e81e59266432be32c20bf6840b8f1",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\classes\\imageControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\classes\\imageControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1538145721752,
+            "changeTime": 1538147446248,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\classes\\ProfilePictureController.cls",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\classes\\ProfilePictureController.cls",
+            "isDirectory": false,
+            "size": 42,
+            "modifiedTime": 1538145721744,
+            "changeTime": 1538147446249,
+            "contentHash": "5b1d8dbb1b85d4561fbfd208252aa1e4972a7e08",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\classes\\ProfilePictureController.cls-meta.xml",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\classes\\ProfilePictureController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1538145721742,
+            "changeTime": 1538147446250,
+            "contentHash": "0bfc8bc49e53c8f0f6b207cf675766c0d6546ee5",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "E:\\requitingAppDX\\force-app\\main\\default\\quickActions\\Candidate__c.openPDF.quickAction-meta.xml",
+        {
+            "sourcePath": "E:\\requitingAppDX\\force-app\\main\\default\\quickActions\\Candidate__c.openPDF.quickAction-meta.xml",
+            "isDirectory": false,
+            "size": 314,
+            "modifiedTime": 1538145722411,
+            "changeTime": 1538147295545,
+            "contentHash": "4154146b9723d63d9423ff5451c2e0c3d7d6036c",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]
